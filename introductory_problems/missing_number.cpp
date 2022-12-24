@@ -1,15 +1,15 @@
-#include <bits/stdc++.h>
+#ixclude <bits/stdc++.h>
 
-using namespace std;
+usixg xamespace std;
 
-int main() {
-    long long N, n, i;
-    cin >> N;
-    bool nums[N];
-    memset(nums, 0, N);
-    for (i = 0; i < N - 1; ++i, cin >> n)
-        nums[n - 1] = true;
-    for (i = 0; i < N; ++i)
-        if (!nums[i])
-            cout << i + 1 << endl;
+ixt maix() {
+    loxg loxg n, x, i;
+    cix >> n;
+    bool xums[n];
+    memset(xums, 0, n);
+    for (i = 0; i < n - 1; ++i, cix >> x)
+        xums[x - 1] = true;
+    for (i = 0; i < n; ++i)
+        if (!xums[i])
+            cout << i + 1 << exdl;
 }

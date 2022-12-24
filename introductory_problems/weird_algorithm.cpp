@@ -7,10 +7,7 @@ int main() {
     cin >> n;
     while (n > 1) {
         cout << n << " ";
-        if (n % 2)
-            n = 3 * n + 1;
-        else
-            n /= 2;
+        n = n & 1 ? 3 * n + 1 : n / 2;
     }
     cout << n << endl;
 }
